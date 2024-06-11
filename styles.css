@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 60px;
+    border-radius: 4px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(32, 11, 11, 0.2);
+}
+
+.login-container h1 {
+    margin-bottom: 24px;
+}
+
+.input-box {
+    margin-bottom: 16px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0b0303;
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+button:hover {
+    background-color: #f6121d;
+}
+
+.help-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.help-section a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.help-section a:hover {
+    text-decoration: underline;
+}
+
+.signup-now {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+.signup-now a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-now a:hover {
+    text-decoration: underline;
+}
+
+.captcha-notice {
+    margin-top: 24px;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.captcha-notice a {
+    color: #010204;
+    text-decoration: none;
+}
+
+.captcha-notice a:hover {
+    text-decoration: underline;
+}
